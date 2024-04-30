@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Widget de Chat</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div id="chat-toggle" onclick="toggleChat()">
+    <img src="assets/avatar.gif" alt="Chat" width="100">
+  </div>
+  <div id="chat-widget" class="closed">
+    <div id="chat-container">
+      <div id="chat-header">
+        <span id="chat-title">ChatBot Widget </span>
+        <button id="close-button" onclick="closeChat()">Fechar</button>
+      </div>
+      <div id="chat-messages"></div>
+      <form id="user-form" onsubmit="enviarMensagem(); return false;">
+        <input type="text" id="user-input" placeholder="Digite sua pergunta...">
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

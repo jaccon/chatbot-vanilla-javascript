@@ -1,4 +1,25 @@
 {
+  "intro": {
+    "messages": [
+      {
+        "text": "Olá! Eu sou a Léia assistente virtual da Empresa Diretório da Arquitetura. Como posso ajudar você hoje?"
+      }
+    ],
+    "questions": [
+      {
+        "id": "name",
+        "text": "Qual é o seu nome?"
+      },
+      {
+        "id": "email",
+        "text": "Qual é o seu email?"
+      },
+      {
+        "id": "phone",
+        "text": "Qual é o seu número de telefone?"
+      }
+    ]
+  },
   "perguntas": [
     {
       "pergunta": "Qual é a capital do Brasil?",

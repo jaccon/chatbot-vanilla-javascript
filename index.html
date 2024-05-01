@@ -5,25 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Widget de Chat</title>
   <link rel="stylesheet" href="assets/style.css">
+  
 </head>
 <body>
   <div id="chat-toggle" onclick="toggleChat()">
-    <img src="assets/avatar.gif" alt="Chat" width="100">
+    <img src="assets/imgs/avatar1.svg" alt="Chat" width="100">
   </div>
   <div id="chat-widget" class="closed">
     <div id="chat-container">
       <div id="chat-header">
-        <span id="chat-title">ChatBot Widget </span>
-        <button id="close-button" onclick="closeChat()">Fechar</button>
+        <span id="chat-title"> Dúvidas pergunte pra Léia</span>
+        <button id="close-button" onclick="fecharChat()">Fechar</button>
       </div>
       <div id="chat-messages"></div>
-      <form id="user-form" onsubmit="enviarMensagem(); return false;">
-        <input type="text" id="user-input" placeholder="Digite sua pergunta...">
-        <button type="submit">Enviar</button>
-      </form>
+      <div class="form-container">
+        <form id="user-form" onsubmit="enviarMensagem(); return false;">
+          <input type="text" id="user-input" placeholder="Digite sua pergunta...">
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
     </div>
   </div>
 
   <script src="assets/script.js"></script>
+  <script>
+    function fecharChat() {
+      limparMensagens();
+      toggleChat();
+    }
+
+    function limparMensagens() {
+      document.getElementById('chat-messages').innerHTML = '';
+    }
+  </script>
 </body>
 </html>

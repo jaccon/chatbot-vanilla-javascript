@@ -38,12 +38,12 @@
 }
 
 #chat-container::-webkit-scrollbar-thumb {
-  background-color: #309cdb; /* Nova cor da barra de rolagem */
+  background-color: #fd7b39; /* Nova cor da barra de rolagem */
   border-radius: 4px; /* Raio da borda da barra de rolagem */
 }
 
 #chat-container::-webkit-scrollbar-thumb:hover {
-  background: #1a6dbb; /* Cor da barra de rolagem ao passar o mouse */
+  background: #fd7b39; /* Cor da barra de rolagem ao passar o mouse */
 }
 
 #chat-header {
@@ -88,7 +88,7 @@
 
 #user-form button {
   height: 40px;
-  background-color: #309cdb;
+  background-color: #fd7b39;
   color: white;
   border: none;
   padding: 8px 10px;

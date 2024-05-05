@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Widget de Chat</title>
   <link rel="stylesheet" href="assets/style.css">
-  
 </head>
 <body>
   <div id="chat-toggle" onclick="toggleChat()">
@@ -26,14 +25,13 @@
       </div>
     </div>
   </div>
-
   <script src="assets/script.js"></script>
   <script>
+    document.getElementById("chat-widget").style.zIndex = "9999";
     function fecharChat() {
       limparMensagens();
       toggleChat();
     }
-
     function limparMensagens() {
       document.getElementById('chat-messages').innerHTML = '';
     }

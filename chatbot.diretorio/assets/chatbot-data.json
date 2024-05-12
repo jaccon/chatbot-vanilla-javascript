@@ -1,0 +1,70 @@
+{
+  "intro": {
+    "messages": [
+      {
+        "text": "Olá! Eu sou a Léia assistente virtual da Empresa Diretório da Arquitetura. Como posso ajudar você hoje?"
+      }
+    ],
+    "handleError" : [
+      {
+        "text" : "Ops, consegue fazer uma pergunta mais específica exemplo contato, financeiro, orçamento etc..."
+      }
+    ],
+    "questions": [
+      {
+        "id": "name",
+        "text": "Qual é o seu nome?"
+      },
+      {
+        "id": "email",
+        "text": "Qual é o seu email?"
+      },
+      {
+        "id": "phone",
+        "text": "Qual é o seu número de telefone?"
+      }
+    ]
+  },
+  "perguntas": [
+    {
+      "pergunta": "Faturas, pagamentos, minhas faturas, boletos ",
+      "resposta": "Para assuntos financeiros entre neste 🤩🤩🤩 [link] https://www.diretoriodaarquitetura.com.br/contato/ [/link]'...."
+    },
+    {
+      "pergunta": "Jesus Cristo, Cristo, Deus, Filho de Deus ",
+      "resposta": "Aqui está a resposta [img]https://images.a12.com/source/files/c/286997/Jesus_Luz_do_Mundo-042590_1023-726-0-0.jpg[/img]"
+    },
+    {
+      "pergunta": "Sobre nós, quem somos, conte-mais, a diretório ",
+      "resposta": " Você pode conhecer mais nossa empresa em [link]https://www.diretoriodaarquitetura.com.br/empresa/[/link]"
+    },
+    {
+      "pergunta": "Contato, fale conosco, falar com atendente, falar com diretoria, diretoria",
+      "resposta": "Entre em contato pelo nosso Whatsapp ou através do telefone 11.955696541"
+    },
+    {
+      "pergunta": "Orçamento, orçamentos",
+      "resposta": "Perfeito, entendi que você quer saber de orçamentos, [link] https://www.diretoriodaarquitetura.com.br/contato/ [/link] "
+    },
+    {
+      "pergunta": "Atendimento",
+      "resposta": "Por favor informar seu nome..."
+    },
+    {
+      "pergunta": "Serviços, serviços, servicos, arquitetura, decoração, decoracao",
+      "resposta": "Entendi que você procura por serviços, segue o link sobre nossos serviços [link] https://www.diretoriodaarquitetura.com.br/servicos/[/link]"
+    },
+    {
+      "pergunta": "Kátia, katia, katia, kátia",
+      "resposta": "Entendi que gostaria de falar com a Kátia correto, segue o link para entrar em contato [img]https://www.diretoriodaarquitetura.com.br/wp-content/uploads/2023/08/Katia-Sano-Diretorio-da-Arquitetura.jpg [/img] Veja também [link] https://web.whatsapp.com/send?phone=5511971433753&text= [/link]"
+    },
+    {
+      "pergunta": "quem é você, qual o seu nome, Léia",
+      "resposta": "Eu sou Léia a inteligência artificial da Diretório"
+    },
+    {
+      "pergunta": "telefone",
+      "resposta": "Entendi que você precisa do telefone da Diretório correto ? Telefone: (11) 5579.3213 "
+    }
+  ]
+}

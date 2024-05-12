@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Widget de Chat</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <!-- Adicione o link para a biblioteca FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div id="chat-toggle" onclick="toggleChat()">
+    <img id="chat-toggle-img" src="assets/imgs/avatar1.svg" alt="Chat" width="100">
+  </div>
+  <div id="chat-widget" class="closed">
+    <div id="chat-container">
+      <div id="chat-header">
+        <span id="chat-title"> Dúvidas pergunte pra Léia</span>
+        <button id="close-button" onclick="fecharChat()">Fechar</button>
+      </div>
+      <div id="chat-messages"></div>
+      <div class="form-container">
+        <form id="user-form" onsubmit="enviarMensagem(); return false;">
+          <!-- Use um ícone FontAwesome no lugar do botão de envio -->
+          <div class="input-with-icon">
+            <input type="text" id="user-input" placeholder="Digite sua pergunta...">
+            <button type="submit" id="send-button"><i class="fas fa-paper-plane"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="assets/script.js"></script>
+  <script>
+    document.getElementById("chat-widget").style.zIndex = "9999";
+    function fecharChat() {
+      limparMensagens();
+      toggleChat();
+    }
+    function limparMensagens() {
+      document.getElementById('chat-messages').innerHTML = '';
+    }
+  </script>
+</body>
+</html>
